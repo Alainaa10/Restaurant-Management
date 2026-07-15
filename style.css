@@ -1,0 +1,154 @@
+/* ===========================
+   LOGIN PAGE
+=========================== */
+
+body.login-page{
+    background: url("img/login-bg.png") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.login-page .card{
+    width: 400px;
+    max-width: 90%;
+    background: rgba(255,255,255,.92);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 12px 30px rgba(0,0,0,.35);
+}
+
+
+/* ===========================
+   ALL OTHER PAGES
+=========================== */
+
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+}
+
+
+/* ===========================
+   HEADER
+=========================== */
+
+.header{
+    width:100%;
+    background:#0077b6;
+    padding:18px 0;
+    text-align:center;
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+}
+
+.header h2{
+    color:white;
+    margin:0;
+}
+
+
+/* ===========================
+   PAGE CONTAINER
+=========================== */
+
+.container{
+    margin-top:35px;
+    margin-bottom:35px;
+}
+
+
+/* ===========================
+   CARDS
+=========================== */
+
+.card{
+    background:white;
+    border:none;
+    border-radius:12px;
+    padding:25px;
+    box-shadow:0 6px 18px rgba(0,0,0,.1);
+}
+
+
+/* ===========================
+   HEADINGS
+=========================== */
+
+h1,h2,h3{
+    color:#005f99;
+}
+
+
+/* ===========================
+   FORM
+=========================== */
+
+input,
+select{
+    width:100%;
+    padding:10px;
+    border:1px solid #ced4da;
+    border-radius:6px;
+    margin-bottom:15px;
+}
+
+input:focus,
+select:focus{
+    outline:none;
+    border-color:#0d6efd;
+    box-shadow:0 0 5px rgba(13,110,253,.25);
+}
+
+
+/* ===========================
+   TABLE
+=========================== */
+
+table{
+    background:white;
+}
+
+table th{
+    text-align:center;
+}
+
+table td{
+    text-align:center;
+    vertical-align:middle;
+}
+
+
+/* ===========================
+   DASHBOARD BOXES
+=========================== */
+
+.dashboard-box{
+    background:white;
+    border-radius:12px;
+    padding:25px;
+    margin:15px;
+    text-align:center;
+    box-shadow:0 4px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.dashboard-box:hover{
+    transform:translateY(-5px);
+}
+
+.dashboard-box h3{
+    color:#005f99;
+}
+
+.dashboard-box p{
+    font-size:30px;
+    font-weight:bold;
+    color:#0077b6;
+}
